@@ -1,0 +1,159 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+/* navbar */
+nav{
+    background-color: #0d9488;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	color: #fd9d9b;
+}
+/* akhir navbar */
+
+/* jumbotron */
+.jumbotron {
+    background: linear-gradient(rgba(36, 156, 204, 0.7),rgba(255,142,200,0.7)), url(images/juss.png);
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+    color: white;
+
+    
+}
+
+.jumbotron hr {
+	border-color: white;
+	width: 400px;
+	border-width: 3px;
+}
+
+.t1{
+    /* text-shadow:0px 0px 20px #222; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+
+.t1:hover{
+    color: #fd9d9b;
+    
+}
+
+.t2{
+    /* text-shadow:0px 0px 20px #222; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+
+.t2:hover{
+    color: #0d9488;
+}
+
+/* akhir jumbotron */
+
+/* content */
+
+.judul hr{
+    border-color: black;
+	width: 200px;
+	border-width: 3px;
+}
+
+.lain{
+    width: 500px;
+    background-color: #0d9488;
+}
+
+.tbeli{
+    width: 200px;
+    background-color: #0d9488;
+}
+
+.tbeli:hover{
+    background-color: #da6866;
+}
+
+.tpesan{
+    margin-left: 580px;
+    margin-bottom: 50px;
+}
+.lain:hover{
+    background-color: #da6866;
+}
+
+.card:hover {
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.4);	
+}
+
+/* akhir content */
+
+/* footer */
+
+.footer-body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.fuut{
+    background-color: #fd9d9b;
+}
+
+
+
+/* akhir footer */
+
+
+/* loginn */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.masuk,
+.daftar{
+    width: 450px;
+    background-color: #0d9488;
+    border: none;
+}
+
+.masuk:hover,
+.daftar:hover{
+    background-color: #da6866;
+}
+
+.lbl{
+    font-weight: bold;
+    color: rgb(39, 37, 37);
+    font-size: 20px;
+}
+/* akhir login */
+
+/* register */
+.fom{
+    border-radius: 10px;
+    
+}
+.regis{
+    background-color: #0d9488;
+    color: #eee;
+}
+.regis:hover{
+    background-color: #da6866;
+    color: #eee;
+}
+
